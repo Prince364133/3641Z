@@ -1,0 +1,33 @@
+.right {
+  width: 50%;
+  float:right;
+  position: relative;
+}
+
+#brain {
+  position: absolute;
+  border: 2px solid red;
+  height: 50px; 
+  width: 100px;
+  top:9.3%;
+  left: 11%
+}
+
+.left {
+  width: 50%;
+}
+
+.hovered {
+  opacity: 1 !important;
+  display: block !important;
+}
+
+.description {
+  opacity: 0;
+  display: none;
+}
+
+.lungs.description {
+  opacity: 1;
+  display: block;
+}
